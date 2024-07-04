@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Category Tabs</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Product Categories</h1>
+        <div class="tabs">
+            <button class="tab-button active" onclick="showCategory('men')">Men</button>
+            <button class="tab-button" onclick="showCategory('women')">Women</button>
+            <button class="tab-button" onclick="showCategory('kids')">Kids</button>
+        </div>
+
+        <div class="category-content active" id="men">
+            <h2>Select Your Choice</h2>
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\men.jpeg" alt="Men's Kurta">
+                    <div class="product-details">
+                        <h3>Green charm</h3>
+                        <p>Puma</p>
+                        <p>Price: 1119.99</p>
+                        <p>Compare at: $24.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%10 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\men1.jpeg" alt="RCB T-Shirt">
+                    <div class="product-details">
+                        <h3>Mens Kurta</h3>
+                        <p>Myntra</p>
+                        <p>Price: 1215.99</p>
+                        <p>Compare at: $20.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%10 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\men2.jpeg" alt="Green Charm">
+                    <div class="product-details">
+                        <h3>Jacket</h3>
+                        <p>Ajio</p>
+                        <p>Price: 5625.99</p>
+                        <p>Compare at: $30.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%30 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\men4.jpeg" alt="Men's T-Shirt">
+                    <div class="product-details">
+                        <h3>formal</h3>
+                        <p>Manyavar</p>
+                        <p>Price: 7810.99</p>
+                        <p>Compare at: $15.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%50 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-content" id="women">
+            <h2>Select Your Choice</h2>
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\women.jpeg" alt="Women's Kurti">
+                    <div class="product-details">
+                        <h3>Women's Gown</h3>
+                        <p>Myntra</p>
+                        <p>Price: 8929.99</p>
+                        <p>Compare at: $39.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%30 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\women1.jpeg" alt="Yellow Gown">
+                    <div class="product-details">
+                        <h3>Dress</h3>
+                        <p>Ajio</p>
+                        <p>Price: 935.99</p>
+                        <p>Compare at: $45.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%10 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\women2.jpeg" alt="Women's Blazer">
+                    <div class="product-details">
+                        <h3>Women's Dress</h3>
+                        <p>Myntra</p>
+                        <p>Price: 8950.99</p>
+                        <p>Compare at: $60.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%20 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\women3.jpeg" alt="Yellow Dress">
+                    <div class="product-details">
+                        <h3>Red Dress</h3>
+                        <p>H&M</p>
+                        <p>Price: 2345.99</p>
+                        <p>Compare at: $55.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%30 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-content" id="kids">
+            <h2>Select Your Choice</h2>
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\kids.jpeg" alt="Kids T-Shirt">
+                    <div class="product-details">
+                        <h3>Yellow Dress</h3>
+                        <p>Myntra</p>
+                        <p>Price: 7814.99</p>
+                        <p>Compare at: $19.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%15 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\kids1.jpeg" alt="Yellow Dress">
+                    <div class="product-details">
+                        <h3>Frock</h3>
+                        <p>Ajio</p>
+                        <p>Price: 4560.99</p>
+                        <p>Compare at: $25.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%20 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\kids2.jpeg" alt="Kids Pajamas">
+                    <div class="product-details">
+                        <h3>Kids Dress</h3>
+                        <p>Myntra</p>
+                        <p>Price: 3418.99</p>
+                        <p>Compare at: $23.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%10 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="C:\Users\admin\Documents\Coding-assessment-l2-Boilerplate-code-main\Coding-assessment-l2-Boilerplate-code-main\kids3.jpeg" alt="Kids Outfit">
+                    <div class="product-details">
+                        <h3>Kids Outfit</h3>
+                        <p>H&M</p>
+                        <p>Price: 3422.99</p>
+                        <p>Compare at: $27.99</p>
+                        <p> <span class="offer" data-price="19.99" data-compare="24.99"></span>%30 off</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showCategory(category) {
+            const contents = document.querySelectorAll('.category-content');
+            const buttons = document.querySelectorAll('.tab-button');
+
+            contents.forEach(content => {
+                content.classList.remove('active');
+                if (content.id === category) {
+                    content.classList.add('active');
+                }
+            });
+
+            buttons.forEach(button => {
+                button.classList.remove('active');
+                if (button.textContent.toLowerCase() === category) {
+                    button.classList.add('active');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
